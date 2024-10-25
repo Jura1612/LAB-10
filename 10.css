@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.header button {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.column h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.task .fa-arrow-left {
+    position: absolute;
+    left: 10px; 
+    cursor: pointer;
+}
+
+.task .fa-arrow-right {
+    position: absolute;
+    right: 10px; 
+    cursor: pointer;
+}
+
+.task span {
+    flex-grow: 1;
+    text-align: center;
+}
+
